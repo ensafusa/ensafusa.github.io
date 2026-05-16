@@ -79,19 +79,27 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ensafusa&theme=tokyonight&bg_color=060b14&hide_border=true" alt="GitHub Contribution Velocity Graph" width="100%" />
-</div>
+  
+  <br><br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" alt="Language Utilization Distribution" width="480" />
-</div>
+  <table border="0">
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="410" alt="GitHub Stats" />
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ensafusa&theme=tokyonight&hide_border=true" width="410" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=cobalt&hide_border=true&count_private=true&cache_seconds=86400&bg_color=0d1117&text_color=c9d1d9&icon_color=00FFFF&title_color=00FFFF" width="49%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=ensafusa&theme=cobalt&hide_border=true&cache_seconds=86400&background=0d1117&currencyColor=00FFFF&sideNums=c9d1d9&sideLabels=00FFFF" width="49%" alt="GitHub Streak" />
-</div>
+  <br>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=cobalt&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Trophies" />
+  <img src="https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" alt="Language Utilization Distribution" width="480" />
+
+  <br><br>
+
+  <img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Trophies" />
 </div>
 
 ---
