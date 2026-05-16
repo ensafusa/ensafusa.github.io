@@ -79,31 +79,36 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ensafusa&theme=tokyonight&bg_color=060b14&hide_border=true" alt="GitHub Contribution Velocity Graph" width="100%" />
-  
-  <br><br>
+</div>
 
-  <table border="0">
+<br>
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td align="center" valign="top">
-        <img src="https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="410" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-six-alpha.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="400" alt="GitHub Stats" />
       </td>
       <td align="center" valign="top">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ensafusa&theme=tokyonight&hide_border=true" width="410" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ensafusa&theme=tokyonight&hide_border=true&background=060b14" width="400" alt="GitHub Streak" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" colspan="2">
+        <br>
+        <img src="https://github-readme-stats-six-alpha.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" width="500" alt="Language Utilization Distribution" />
       </td>
     </tr>
   </table>
+</div>
 
-  <br>
+<br>
 
-  <img src="https://github-readme-stats-git-master-anuraghazras-projects.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" alt="Language Utilization Distribution" width="480" />
-
-  <br><br>
-
-  <img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Trophies" />
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="Trophies" />
 </div>
 
 ---
-
 ## Projects By Field
 
 ### --- Crown Jewel: Life Savings & Succession Document Validator
