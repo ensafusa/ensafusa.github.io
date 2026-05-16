@@ -3,8 +3,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20EL%20IDRISSI&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
 
 <p>
-  <img src="https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black" alt="GitHub Followers" />
-  <img src="https://img.shields.io/badge/Repos-00FFFF?style=flat-square&logo=git&logoColor=black" alt="GitHub Repos" />
+  <img src="https://img.shields.io/github/followers/ensafusa?style=flat-square&logo=github&logoColor=black&label=Followers&color=00FFFF" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/repos/type/ensafusa/public?style=flat-square&logo=git&logoColor=black&label=Repos&color=00FFFF" alt="GitHub Repos" />
 </p>
 
 ---
@@ -65,16 +65,17 @@
 
 ---
 
+
 ## 📊 Performance & Analytics
 
 <div align="center">
   <table border="0">
     <tr>
       <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Metrics Summary" width="420" />
+        <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Metrics Summary" width="420" />
       </td>
       <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Language Utilization Distribution" width="360" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ensafusa&theme=tokyonight" alt="Language Utilization Distribution" width="360" />
       </td>
     </tr>
   </table>
