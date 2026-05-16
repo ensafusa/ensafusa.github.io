@@ -1,48 +1,29 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
+<img src="[https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false)" />
 
 <p>
-<a href="https://komarev.com/ghpvc/?username=ensafusa">
-<img src="https://komarev.com/ghpvc/?username=ensafusa&label=Profile%20views&color=00FFFF&style=flat-square" alt="Profile views" />
+<a href="[https://komarev.com/ghpvc/?username=ensafusa](https://komarev.com/ghpvc/?username=ensafusa)">
+<img src="[https://komarev.com/ghpvc/?username=ensafusa&label=Profile%20views&color=00FFFF&style=flat-square](https://komarev.com/ghpvc/?username=ensafusa&label=Profile%20views&color=00FFFF&style=flat-square)" alt="Profile views" />
 </a>
-<a href="https://github.com/ensafusa?tab=followers">
-<img src="https://img.shields.io/github/followers/ensafusa?label=Followers&style=flat-square&color=00FFFF" alt="GitHub Followers" />
+<a href="[https://github.com/ensafusa?tab=followers](https://github.com/ensafusa?tab=followers)">
+<img src="[https://img.shields.io/github/followers/ensafusa?label=Followers&style=flat-square&color=00FFFF](https://img.shields.io/github/followers/ensafusa?label=Followers&style=flat-square&color=00FFFF)" alt="GitHub Followers" />
 </a>
-<a href="https://github.com/ensafusa?tab=repositories">
-<img src="https://img.shields.io/github/repos/ensafusa?label=Repos&style=flat-square&color=00FFFF" alt="GitHub Repos" />
+<a href="[https://github.com/ensafusa?tab=repositories](https://github.com/ensafusa?tab=repositories)">
+<img src="[https://img.shields.io/github/repos/ensafusa?label=Repos&style=flat-square&color=00FFFF](https://img.shields.io/github/repos/ensafusa?label=Repos&style=flat-square&color=00FFFF)" alt="GitHub Repos" />
 </a>
 </p>
 
 ---
 
 ### 👋 About Me
+
+```text
 🎓  Aspiring AI & Software Engineer
 🧠  Specializing in Computer Vision & Large Language Models
 🚀  Architecting Secure, Low-Latency Full-Stack AI Ecosystems
 🌍  Based in Morocco
 💡  Passionate about turning complex data into intuitive experiences
----
-
-</div>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=cobalt&hide_border=true&count_private=true&cache_seconds=86400&bg_color=0d1117&text_color=c9d1d9&icon_color=00FFFF&title_color=00FFFF&show=reviews,prs_merged,prs_merged_percentage" width="49%" alt="GitHub Stats" />
-<img src="https://streak-stats.demolab.com/?user=ensafusa&theme=cobalt&hide_border=true&cache_seconds=86400&background=0d1117&currencyColor=00FFFF&sideNums=c9d1d9&sideLabels=00FFFF" width="49%" alt="GitHub Streak" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=cobalt&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Trophies" />
-
-</div>
-
----
-
 ## 🛠️ Technical Toolkit
 
 ### 💻 Programming Languages
@@ -57,8 +38,8 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="48" height="48" style="margin: 6px;" />
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-Learn" width="48" height="48" style="margin: 6px;" />
-<img src="https://www.vectorlogo.zone/logos/streamlit/streamlit-icon.svg" alt="Streamlit" width="48" height="48" style="margin: 6px;" />
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/huggingface.svg" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-plain.svg" alt="Streamlit" width="48" height="48" style="margin: 6px;" />
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/huggingface.svg" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ### ⚙️ Backend Frameworks & Storage
@@ -78,9 +59,11 @@
 </div>
 
 ---
+
 ## 🔮 Production Engineering Portfolio
 
 ### 👑 Crown Jewel: Life Savings & Succession Document Validator
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  Domain: FinTech / InsurTech / Intelligent Document Automation (IDA)   │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -90,9 +73,9 @@
 │  • Detects fraud anomalies & routes edge-cases to human audit queues   │
 │  • Built with: Python, Advanced Extraction Systems, Risk Modeling      │
 └────────────────────────────────────────────────────────────────────────┘
-
-
-### 🧠 Core AI, NLP & Language Engineering
+```
+###🧠 Core AI, NLP & Language Engineering
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  🤖 Bangtan FAQ AI: Beyond the Story                                    │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -101,6 +84,8 @@
 │  • Linked data windows to Llama 3.3 (70B) via Groq LPUs for sub-sec TTS │
 │  • Built with: Python, NLTK Vectorization, Groq API, Streamlit         │
 └────────────────────────────────────────────────────────────────────────┘
+```
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  🌐 DoTranslatorAI Portal                                              │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -109,9 +94,9 @@
 │  • Protected securely by a decoupled Spring Boot API wrapper system    │
 │  • Built with: Spring Boot Core, Vanilla JS (ES6+), NMT Engines        │
 └────────────────────────────────────────────────────────────────────────┘
-
-
-### 👁️ Advanced Computer Vision Pipelines
+```
+###👁️ Advanced Computer Vision Pipelines
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  👁️ Real-Time Object Tracking System                                   │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -120,6 +105,8 @@
 │  • Completely eliminates the processing latency of traditional NMS     │
 │  • Built with: Python, Computer Vision architectures, Ultralytics     │
 └────────────────────────────────────────────────────────────────────────┘
+```
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  🎙️ WONWOO READ IT: Multilingual OCR Scanner                           │
 ├────────────────────────────────────────────────────────────────────────┤
@@ -128,27 +115,26 @@
 │  • Handles character mappings for English, French, Korean, & Japanese  │
 │  • Built with: Python, Flask Framework, OpenCV Core, Tesseract Engine   │
 └────────────────────────────────────────────────────────────────────────┘
-
-
-### 📱 Native Mobile & System Automation
+```
+###📱 Native Mobile & System Automation
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
 │  🎓 ENSAVerse Mobile Ecosystem                                         │
 ├────────────────────────────────────────────────────────────────────────┤
 │  • Student campus engine relying on reactive MVVM development patterns │
-│  • Uses native KSP processing compilers with Room persistence mapping │
+│  • Uses native KSP processing compilers with Room persistence mapping  │
 │  • Built with: Kotlin, Android Architecture Components, SQLite         │
 └────────────────────────────────────────────────────────────────────────┘
+```
+```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  💧 HealthyFlowTick Task Automator                                      │
+│  💧 HealthyFlowTick Task Automator                                     │
 ├────────────────────────────────────────────────────────────────────────┤
 │  • Biological utility executing active background routine logic        │
 │  • Caches remote environmental inputs via Open-Meteo REST endpoints    │
 │  • Built with: Native Java SDK, AlarmManager Broadcast Receivers       │
 └────────────────────────────────────────────────────────────────────────┘
-
-
----
-
+```
 ## 📈 Language Metrics
 
 <div align="center">
@@ -169,20 +155,14 @@
 
 </div>
 
-<br>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" alt="Bottom Line" width="100%" />
-</div>
-
 ---
 
 <p align="center">
   <strong>Let's engineer something impact-driven together!</strong><br><br>
-  <a href="YOUR_LINKEDIN_URL_HERE" target="_blank">
+  <a href="https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:YOUR_EMAIL_HERE">
+  <a href="mailto:elidrissielazamidoha@gmail.com">
     <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
