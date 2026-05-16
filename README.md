@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="[https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false](https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false)" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
 
 <p>
-  <img src="[https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black](https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black)" alt="GitHub Followers" />
-  <img src="[https://img.shields.io/badge/Repos-00FFFF?style=flat-square&logo=git&logoColor=black](https://img.shields.io/badge/Repos-00FFFF?style=flat-square&logo=git&logoColor=black)" alt="GitHub Repos" />
+  <img src="https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black" alt="GitHub Followers" />
+  <img src="https://img.shields.io/badge/Repos-00FFFF?style=flat-square&logo=git&logoColor=black" alt="GitHub Repos" />
 </p>
 
 ---
@@ -25,34 +25,34 @@
 
 ### 💻 Programming Languages
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)" alt="Python" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg)" alt="Java" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg)" alt="Kotlin" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg)" alt="JavaScript" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ### 🤖 AI, NLP & Computer Vision
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg)" alt="OpenCV" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg)" alt="Scikit-Learn" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-plain.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-plain.svg)" alt="Streamlit" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/huggingface/huggingface-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/huggingface/huggingface-original.svg)" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikit-learn/scikit-learn-original.svg" alt="Scikit-Learn" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-plain.svg" alt="Streamlit" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/huggingface/huggingface-original.svg" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ### ⚙️ Backend Frameworks & Storage
 <div align="center">
-  <img src="[https://www.vectorlogo.zone/logos/springio/springio-icon.svg](https://www.vectorlogo.zone/logos/springio/springio-icon.svg)" alt="Spring Boot" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg)" alt="Flask" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg)" alt="MySQL" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg)" alt="SQLite" width="48" height="48" style="margin: 6px;" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ### 🔧 Native Mobile & Tools
 <div align="center">
-  <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg)" alt="Android SDK" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)" alt="Git" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg](https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg)" alt="VS Code" width="48" height="48" style="margin: 6px;" />
-  <img src="[https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg](https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg)" alt="Postman" width="48" height="48" style="margin: 6px;" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android SDK" width="48" height="48" style="margin: 6px;" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 6px;" />
+  <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 6px;" />
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ---
@@ -118,9 +118,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="[https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg](https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg)" />
-  <source media="(prefers-color-scheme: light)" srcset="[https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg](https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg)" />
-  <img alt="GitHub Snake" src="[https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg](https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg)" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
 </picture>
 
 </div>
@@ -129,10 +129,10 @@
 
 <p align="center">
   <strong>Let's engineer something impact-driven together!</strong><br><br>
-  <a href="[https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/](https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/)" target="_blank">
-    <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn">
+  <a href="https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:elidrissielazamidoha@gmail.com">
-    <img src="[https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)" alt="Email">
+    <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
