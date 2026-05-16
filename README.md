@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20El%20Idrissi&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20EL%20IDRISSI%20EL%20HASSANI%20EL%20AZAMI&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
 
 <p>
   <img src="https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black" alt="GitHub Followers" />
@@ -65,9 +65,26 @@
 
 ---
 
-## 🔮 Production Engineering Portfolio
+## 📊 Performance & Analytics
 
-### 👑 Crown Jewel: Life Savings & Succession Document Validator
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Metrics Summary" width="420" />
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Language Utilization Distribution" width="360" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## Projects By Field
+
+### --- Crown Jewel: Life Savings & Succession Document Validator
 * **Domain:** FinTech / InsurTech / Intelligent Document Automation (IDA)
 * Automated ingestion pipeline for multi-document succession files.
 * Implements text extraction algorithms via localized OCR layers.
@@ -77,15 +94,15 @@
 
 ---
 
-### 🧠 Core AI, NLP & Language Engineering
+### --- Core AI, NLP & Language Engineering
 
-#### 🤖 Bangtan FAQ AI: Beyond the Story
+#### -- Bangtan FAQ AI: Beyond the Story
 * Ground-up mathematical RAG engine mapping a 400+ page memoir.
 * Bypassed standard abstractions for custom TF-IDF & Cosine Similarity configurations.
 * Linked data windows to Llama 3.3 (70B) via Groq LPUs for sub-second generation speeds.
 * **Built with:** `Python` • `NLTK Vectorization` • `Groq API` • `Streamlit`
 
-#### 🌐 DoTranslatorAI Portal
+#### -- DoTranslatorAI Portal
 * Dynamic full-stack translation hub handling Neural Machine Text routing protocols.
 * Runs predictive language collision logic & fluid native RTL component scaling.
 * Protected securely by a decoupled Spring Boot API wrapper system.
@@ -93,15 +110,15 @@
 
 ---
 
-### 👁️ Advanced Computer Vision Pipelines
+### --- Advanced Computer Vision Pipelines
 
-#### 👁️ Real-Time Object Tracking System
+#### -- Real-Time Object Tracking System
 * High-throughput transformer detection using the state-of-the-art RT-DETR model.
 * Integrated with BoT-SORT to keep identity locks steady through structural occlusions.
 * Completely eliminates the processing latency typical of traditional NMS pipelines.
 * **Built with:** `Python` • `Computer Vision Architectures` • `Ultralytics`
 
-#### 🎙️ WONWOO READ IT: Multilingual OCR Scanner
+#### -- WONWOO READ IT: Multilingual OCR Scanner
 * Assistive physical-to-digital image parsing web platform.
 * Deploys OpenCV Adaptive Thresholding matrices to eliminate scanning noise artifacts.
 * Handles character structural mappings for English, French, Korean, & Japanese scripts.
@@ -109,14 +126,14 @@
 
 ---
 
-### 📱 Native Mobile & System Automation
+### --- Native Mobile & System Automation
 
-#### 🎓 ENSAVerse Mobile Ecosystem
+#### -- ENSAVerse Mobile Ecosystem
 * Student campus engine relying on reactive MVVM decoupled development patterns.
 * Streamlines application compiling using native KSP processing tools with Room local persistence mapping.
 * **Built with:** `Kotlin` • `Android Architecture Components` • `SQLite`
 
-#### 💧 HealthyFlowTick Task Automator
+#### -- HealthyFlowTick Task Automator
 * Biological utility executing active background thread routine logic.
 * Intelligently caches remote environmental inputs via Open-Meteo REST endpoints.
 * **Built with:** `Native Java SDK` • `AlarmManager Broadcast Receivers`
