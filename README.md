@@ -70,16 +70,9 @@
 ## 📊 Performance & Analytics
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Metrics Summary" width="420" />
-      </td>
-      <td align="center" valign="top">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ensafusa&theme=tokyonight" alt="Language Utilization Distribution" width="360" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ensafusa&theme=tokyonight&bg_color=060b14&hide_border=true" alt="GitHub Contribution Velocity Graph" width="100%" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" alt="Language Utilization Distribution" width="480" />
 </div>
 
 ---
