@@ -29,8 +29,6 @@
 
 ---
 
-</div>
-
 ## 🛠️ Technical Toolkit
 
 ### 💻 Programming Languages
