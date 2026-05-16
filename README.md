@@ -16,9 +16,9 @@
 <img src="https://img.shields.io/github/stars/ensafusa?style=flat&logo=github&logoColor=white&label=Stars&color=00FFFF" alt="GitHub Stars" />
 </a>
 </p>
-</div>
+
 ---
-<div align="center">
+
 ### 👋 About Me
 
 🎓 Aspiring AI & Software Engineer
@@ -26,8 +26,10 @@
 <br>🚀 Architecting Secure, Low-Latency Full-Stack AI Ecosystems
 <br>🌍 Based in Morocco
 <br>💡 Passionate about turning complex data into intuitive experiences
-</div>
+
 ---
+
+</div>
 
 ## 🛠️ Technical Toolkit
 
