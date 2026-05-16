@@ -11,7 +11,11 @@
 </a>
 <a href="https://github.com/ensafusa?tab=repositories">
 <img src="https://img.shields.io/github/repos/ensafusa?label=Repos&style=flat-square&color=00FFFF" alt="GitHub Repos" />
-</a></p>
+</a>
+<a href="https://github.com/ensafusa?tab=stars">
+<img src="https://img.shields.io/github/stars/ensafusa?style=flat&logo=github&logoColor=white&label=Stars&color=00FFFF" alt="GitHub Stars" />
+</a>
+</p>
 
 ---
 
