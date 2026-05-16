@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20EL%20IDRISSI%20EL%20HASSANI%20EL%20AZAMI&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20EL%20IDRISSI&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
 
 <p>
   <img src="https://img.shields.io/badge/Followers-00FFFF?style=flat-square&logo=github&logoColor=black" alt="GitHub Followers" />
