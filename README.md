@@ -39,6 +39,14 @@
   <img src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
 </div>
 
+### ⚡ Infrastructure, LLMs & Hardware Acceleration
+<div align="center">
+  <img src="https://img.shields.io/badge/Llama_3.3_70B-2496ED?style=for-the-badge&logo=meta&logoColor=white" style="margin: 4px;" />
+  <img src="https://img.shields.io/badge/Groq_LPU-F58220?style=for-the-badge&logo=fastapi&logoColor=white" style="margin: 4px;" />
+  <img src="https://img.shields.io/badge/RT--DETR-00FFFF?style=for-the-badge&logo=analytics&logoColor=black" style="margin: 4px;" />
+  <img src="https://img.shields.io/badge/Tesseract_OCR-4B275F?style=for-the-badge&logo=gitbook&logoColor=white" style="margin: 4px;" />
+</div>
+
 ### ⚙️ Backend Frameworks & Storage
 <div align="center">
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="48" height="48" style="margin: 6px;" />
@@ -47,12 +55,29 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="48" height="48" style="margin: 6px;" />
 </div>
 
-### 🔧 Native Mobile & Tools
+### 🔧 Native Mobile & Development Tools
 <div align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="Android SDK" width="48" height="48" style="margin: 6px;" />
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 6px;" />
   <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 6px;" />
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="48" height="48" style="margin: 6px;" />
+</div>
+
+---
+
+## 📊 Performance & Analytics
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api?username=Doha-El-idrissi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Metrics Summary" width="420" />
+      </td>
+      <td align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doha-El-idrissi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Language Utilization Distribution" width="360" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
