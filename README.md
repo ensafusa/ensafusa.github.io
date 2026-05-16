@@ -65,23 +65,6 @@
 
 ---
 
-## 📊 Performance & Analytics
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=Doha-El-idrissi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Metrics Summary" width="420" />
-      </td>
-      <td align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doha-El-idrissi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Language Utilization Distribution" width="360" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## 🔮 Production Engineering Portfolio
 
 ### 👑 Crown Jewel: Life Savings & Succession Document Validator
