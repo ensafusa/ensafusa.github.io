@@ -93,5 +93,5 @@ I am a **Software Developer** and **AI Engineer** who specializes in bridging ad
 
 <p align="center">
   <strong>Let's engineer something impact-driven together!</strong><br><br>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
