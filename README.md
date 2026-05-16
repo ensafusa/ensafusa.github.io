@@ -18,7 +18,7 @@
 </p>
 </div>
 ---
-
+<div align="center">
 ### 👋 About Me
 
 🎓 Aspiring AI & Software Engineer
@@ -26,7 +26,7 @@
 <br>🚀 Architecting Secure, Low-Latency Full-Stack AI Ecosystems
 <br>🌍 Based in Morocco
 <br>💡 Passionate about turning complex data into intuitive experiences
-
+</div>
 ---
 
 ## 🛠️ Technical Toolkit
