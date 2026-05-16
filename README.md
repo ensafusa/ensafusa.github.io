@@ -82,7 +82,24 @@
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ensafusa&layout=compact&theme=tokyonight&hide_border=true&bg_color=060b14&langs_count=6" alt="Language Utilization Distribution" width="480" />
 </div>
+<div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=cobalt&hide_border=true&count_private=true&cache_seconds=86400&bg_color=0d1117&text_color=c9d1d9&icon_color=00FFFF&title_color=00FFFF" width="49%" alt="GitHub Stats" />
+<img src="https://streak-stats.demolab.com/?user=ensafusa&theme=cobalt&hide_border=true&cache_seconds=86400&background=0d1117&currencyColor=00FFFF&sideNums=c9d1d9&sideLabels=00FFFF" width="49%" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=ensafusa&theme=cobalt&no-frame=true&no-bg=true&margin-w=4&cache_seconds=86400" alt="Trophies" />
+
+</div>
+
+<div align="center">
+
+<img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=ensafusa&theme=cobalt&radius=10&bg_color=0d1117&color=00FFFF&line=00FFFF&point=00FFFF" alt="Activity Graph" />
+
+</div>
 ---
 
 ## Projects By Field
