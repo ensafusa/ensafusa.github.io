@@ -3,7 +3,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Doha%20EL%20IDRISSI&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Software%20Developer%20%7C%20AI%20Engineer%20%7C%20Computer%20Vision&descSize=18&descAlignY=58&textBg=false" />
 
 <p>
-  <img src="https://profile-counter.glitch.me/ensafusa/count.svg" alt="Profile Views" />
+<a href="https://komarev.com/ghpvc/?username=ensafusa">
+<img src="https://komarev.com/ghpvc/?username=ensafusa&label=Profile%20views&color=00FFFF&style=flat-square" alt="Profile views" />
+</a>
   <img src="https://img.shields.io/github/followers/ensafusa?style=flat&logo=github&logoColor=white&label=Followers&color=00FFFF" alt="GitHub Followers" />
   <img src="https://img.shields.io/github/stars/ensafusa?style=flat&logo=github&logoColor=white&label=Stars&color=00FFFF" alt="GitHub Stars" />
 </p>
