@@ -36,7 +36,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="48" height="48" style="margin: 6px;" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn" width="48" height="48" style="margin: 6px;" />
   <img src="https://cdn.simpleicons.org/streamlit/FF4B4B" alt="Streamlit" width="48" height="48" style="margin: 6px;" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/huggingface/huggingface-original.svg" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
+  <img src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="HuggingFace" width="48" height="48" style="margin: 6px;" />
 </div>
 
 ### ⚙️ Backend Frameworks & Storage
