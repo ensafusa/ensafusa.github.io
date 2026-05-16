@@ -6,9 +6,12 @@
 <a href="https://komarev.com/ghpvc/?username=ensafusa">
 <img src="https://komarev.com/ghpvc/?username=ensafusa&label=Profile%20views&color=00FFFF&style=flat-square" alt="Profile views" />
 </a>
-  <img src="https://img.shields.io/github/followers/ensafusa?style=flat&logo=github&logoColor=white&label=Followers&color=00FFFF" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/ensafusa?style=flat&logo=github&logoColor=white&label=Stars&color=00FFFF" alt="GitHub Stars" />
-</p>
+<a href="https://github.com/ensafusa?tab=followers">
+<img src="https://img.shields.io/github/followers/ensafusa?label=Followers&style=flat-square&color=00FFFF" alt="GitHub Followers" />
+</a>
+<a href="https://github.com/ensafusa?tab=repositories">
+<img src="https://img.shields.io/github/repos/ensafusa?label=Repos&style=flat-square&color=00FFFF" alt="GitHub Repos" />
+</a></p>
 
 ---
 
