@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Doha EL IDRISSI — AI Engineer & Computer Vision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0A0F1C;
+    --panel:#111827;
+    --panel-hi:#151E31;
+    --line:#1F2937;
+    --text:#E5E9F0;
+    --text-dim:#8B96AC;
+    --teal:#2DD4BF;
+    --amber:#F5A623;
+    --radius:2px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--teal);color:var(--bg);}
+
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    color:var(--teal);
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:16px;height:1px;
+    background:var(--teal);
+    display:inline-block;
+  }
+
+  section{
+    max-width:1080px;
+    margin:0 auto;
+    padding:120px 32px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:32px;
+    position:relative;
+  }
+  .hero-frame{
+    position:relative;
+    padding:48px;
+    display:inline-block;
+  }
+  .corner{
+    position:absolute;
+    width:22px;height:22px;
+    border:2px solid var(--amber);
+    opacity:0;
+    transition:opacity .6s ease .4s, transform .6s ease .4s;
+    transform:scale(0.7);
+  }
+  .hero-frame.locked .corner{opacity:1;transform:scale(1);}
+  .corner.tl{top:0;left:0;border-right:none;border-bottom:none;}
+  .corner.tr{top:0;right:0;border-left:none;border-bottom:none;}
+  .corner.bl{bottom:0;left:0;border-right:none;border-top:none;}
+  .corner.br{bottom:0;right:0;border-left:none;border-top:none;}
+
+  .hero h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:clamp(38px,7vw,74px);
+    line-height:1.02;
+    letter-spacing:-0.02em;
+  }
+  .hero .role{
+    margin-top:18px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:15px;
+    color:var(--text-dim);
+    letter-spacing:0.02em;
+  }
+  .hero .role span{color:var(--teal);}
+  .tag-row{
+    margin-top:28px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .tag{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    padding:5px 10px;
+    border:1px solid var(--line);
+    color:var(--text-dim);
+    letter-spacing:0.04em;
+  }
+  .scroll-cue{
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--text-dim);
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+  }
+  .scroll-cue::after{
+    content:"";
+    width:1px;height:34px;
+    background:linear-gradient(var(--teal),transparent);
+    animation:scrollPulse 1.8s ease-in-out infinite;
+  }
+  @keyframes scrollPulse{
+    0%{opacity:.2;}
+    50%{opacity:1;}
+    100%{opacity:.2;}
+  }
+
+  /* ---------- REVEAL ---------- */
+  .reveal{
+    opacity:0;
+    transform:translateY(28px);
+    transition:opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1);
+  }
+  .reveal.in{opacity:1;transform:translateY(0);}
+  .reveal-delay-1{transition-delay:.08s;}
+  .reveal-delay-2{transition-delay:.16s;}
+  .reveal-delay-3{transition-delay:.24s;}
+
+  h2.section-title{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:clamp(26px,4vw,36px);
+    font-weight:600;
+    margin-top:10px;
+    margin-bottom:44px;
+  }
+
+  /* ---------- ABOUT ---------- */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    gap:48px;
+    align-items:start;
+  }
+  .readout{
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:26px 28px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13.5px;
+    line-height:2;
+    color:var(--text-dim);
+  }
+  .readout .k{color:var(--teal);}
+  .readout .v{color:var(--text);}
+  .scan-box{
+    border:1px solid var(--line);
+    background:
+      repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(45,212,191,0.05) 24px),
+      repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(45,212,191,0.05) 24px);
+    position:relative;
+    min-height:280px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .scan-box .id{
+    position:absolute;
+    top:12px;left:12px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--amber);
+    letter-spacing:.08em;
+  }
+  .scan-box p{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    color:var(--text-dim);
+    text-align:center;
+    max-width:280px;
+    line-height:1.7;
+  }
+
+  @media(max-width:760px){
+    .about-grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- FLASHCARDS ---------- */
+  .card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    gap:16px;
+  }
+  .flip-card{
+    perspective:1000px;
+    height:130px;
+  }
+  .flip-inner{
+    position:relative;
+    width:100%;height:100%;
+    transition:transform .55s cubic-bezier(.3,.7,.3,1);
+    transform-style:preserve-3d;
+  }
+  .flip-card:hover .flip-inner,
+  .flip-card.flipped .flip-inner{
+    transform:rotateY(180deg);
+  }
+  .flip-face{
+    position:absolute;inset:0;
+    backface-visibility:hidden;
+    border:1px solid var(--line);
+    background:var(--panel);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:12px;
+    text-align:center;
+  }
+  .flip-face img{width:34px;height:34px;}
+  .flip-face .name{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:13px;
+    font-weight:600;
+  }
+  .flip-back{
+    transform:rotateY(180deg);
+    background:var(--panel-hi);
+    border-color:var(--teal);
+  }
+  .flip-back .note{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--text-dim);
+    line-height:1.5;
+  }
+  .flip-back .conf{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--teal);
+  }
+
+  /* ---------- PROJECTS ---------- */
+  .project{
+    position:relative;
+    border:1px solid var(--line);
+    background:var(--panel);
+    padding:36px;
+    margin-bottom:28px;
+  }
+  .project .pcorner{
+    position:absolute;
+    width:16px;height:16px;
+    border:2px solid var(--amber);
+    opacity:0;
+    transform:scale(.6);
+    transition:opacity .5s ease, transform .5s ease;
+  }
+  .project.in .pcorner{opacity:1;transform:scale(1);}
+  .project .pcorner.tl{top:-1px;left:-1px;border-right:none;border-bottom:none;transition-delay:.1s;}
+  .project .pcorner.br{bottom:-1px;right:-1px;border-left:none;border-top:none;transition-delay:.25s;}
+  .project-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--amber);
+    letter-spacing:.1em;
+    margin-bottom:14px;
+    display:block;
+  }
+  .project h3{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:22px;
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  .project .domain{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--text-dim);
+    margin-bottom:16px;
+  }
+  .project p.desc{
+    color:var(--text-dim);
+    font-size:14.5px;
+    line-height:1.7;
+    max-width:640px;
+    margin-bottom:18px;
+  }
+  .stack-row{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+  }
+  .stack-row span{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--teal);
+    border:1px solid rgba(45,212,191,0.3);
+    padding:4px 9px;
+  }
+  .project.crown{border-color:var(--amber);}
+  .project.crown .project-label{color:var(--amber);}
+
+  .cat-heading{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--text-dim);
+    margin:52px 0 18px;
+  }
+
+  /* ---------- STATS ---------- */
+  .stats-wrap img{
+    width:100%;
+    border:1px solid var(--line);
+    display:block;
+    margin-bottom:18px;
+  }
+  .stats-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+  }
+  @media(max-width:700px){.stats-row{grid-template-columns:1fr;}}
+
+  /* ---------- CONTACT ---------- */
+  .contact{
+    text-align:center;
+    padding-bottom:160px;
+  }
+  .contact h2{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:clamp(28px,5vw,44px);
+    font-weight:600;
+    margin-bottom:16px;
+  }
+  .contact p{
+    color:var(--text-dim);
+    margin-bottom:34px;
+    font-size:15px;
+  }
+  .contact-links{
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .btn{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    letter-spacing:.04em;
+    text-decoration:none;
+    color:var(--text);
+    border:1px solid var(--teal);
+    padding:14px 26px;
+    transition:background .25s ease, color .25s ease;
+  }
+  .btn:hover{background:var(--teal);color:var(--bg);}
+  .btn.alt{border-color:var(--line);color:var(--text-dim);}
+  .btn.alt:hover{background:var(--panel-hi);color:var(--text);}
+
+  footer{
+    text-align:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--text-dim);
+    padding-bottom:40px;
+    letter-spacing:.06em;
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-frame" id="heroFrame">
+    <span class="corner tl"></span>
+    <span class="corner tr"></span>
+    <span class="corner bl"></span>
+    <span class="corner br"></span>
+    <div class="eyebrow">TARGET_LOCKED · CONFIDENCE 98%</div>
+    <h1>Doha<br>EL&nbsp;IDRISSI</h1>
+    <div class="role">Software Developer <span>·</span> AI Engineer <span>·</span> Computer Vision — Morocco</div>
+    <div class="tag-row">
+      <span class="tag">PYTHON</span>
+      <span class="tag">RAG SYSTEMS</span>
+      <span class="tag">RT-DETR</span>
+      <span class="tag">FULL-STACK AI</span>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll to inspect</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="eyebrow reveal">01 · SYSTEM READOUT</div>
+  <h2 class="section-title reveal reveal-delay-1">About Me</h2>
+  <div class="about-grid">
+    <div class="readout reveal reveal-delay-1">
+      <div><span class="k">role</span>: <span class="v">Aspiring AI & Software Engineer</span></div>
+      <div><span class="k">focus</span>: <span class="v">Computer Vision · LLMs · Secure Full-Stack Systems</span></div>
+      <div><span class="k">based_in</span>: <span class="v">Morocco 🇲🇦</span></div>
+      <div><span class="k">mission</span>: <span class="v">Turning complex data into intuitive, production-ready experiences</span></div>
+      <div><span class="k">currently_building</span>: <span class="v">Document validator for FinTech / InsurTech</span></div>
+      <div><span class="k">fun_fact</span>: <span class="v">Built a RAG engine from scratch instead of reaching for a vector DB</span></div>
+    </div>
+    <div class="scan-box reveal reveal-delay-2">
+      <span class="id">OBJ_01 · PORTFOLIO.md</span>
+      <p>I optimize for correctness on real, messy data — not benchmark numbers. Open to collaborations in CV, applied NLP, and FinTech automation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLKIT -->
+<section id="toolkit">
+  <div class="eyebrow reveal">02 · DETECTED SKILLS</div>
+  <h2 class="section-title reveal reveal-delay-1">Technical Toolkit</h2>
+  <p class="mono" style="color:var(--text-dim);font-size:12px;margin-top:-26px;margin-bottom:34px;" class="reveal">tap or hover a card to flip</p>
+  <div class="card-grid reveal reveal-delay-1" id="cardGrid"></div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="eyebrow reveal">03 · TRACKED PROJECTS</div>
+  <h2 class="section-title reveal reveal-delay-1">Featured Work</h2>
+
+  <div class="project crown reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_00 · CROWN JEWEL</span>
+    <h3>Life Savings & Succession Document Validator</h3>
+    <div class="domain">FinTech · InsurTech · Intelligent Document Automation</div>
+    <p class="desc">An automated ingestion pipeline for multi-document succession files. Extracts text via localized OCR layers, runs deterministic validation across heterogeneous documents, and flags fraud anomalies for human audit review.</p>
+    <div class="stack-row"><span>Python</span><span>Advanced Extraction Systems</span><span>Risk Modeling</span></div>
+  </div>
+
+  <div class="cat-heading reveal">AI, NLP & Language Engineering</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_01 · RAG ENGINE</span>
+    <h3>Bangtan FAQ AI — Beyond the Story</h3>
+    <p class="desc">Ground-up mathematical RAG engine mapping a 400+ page memoir, built with custom TF-IDF & cosine similarity — no off-the-shelf abstractions — connected to Llama 3.3 (70B) via Groq LPUs for sub-second generation.</p>
+    <div class="stack-row"><span>Python</span><span>NLTK Vectorization</span><span>Groq API</span><span>Streamlit</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_02 · TRANSLATION</span>
+    <h3>DoTranslatorAI Portal</h3>
+    <p class="desc">Full-stack translation hub with neural machine translation routing, predictive language-collision handling, and fluid RTL layout support, secured behind a decoupled Spring Boot API.</p>
+    <div class="stack-row"><span>Spring Boot</span><span>Vanilla JS (ES6+)</span><span>NMT Engines</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Computer Vision Pipelines</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_03 · TRACKING</span>
+    <h3>Real-Time Object Tracking System</h3>
+    <p class="desc">High-throughput transformer-based detection using RT-DETR, integrated with BoT-SORT for stable identity tracking through occlusions — with no traditional NMS latency.</p>
+    <div class="stack-row"><span>Python</span><span>Ultralytics</span><span>CV Architectures</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_04 · OCR</span>
+    <h3>WONWOO READ IT — Multilingual OCR Scanner</h3>
+    <p class="desc">Assistive physical-to-digital scanning platform using OpenCV adaptive thresholding to remove noise, supporting English, French, Korean, and Japanese script recognition.</p>
+    <div class="stack-row"><span>Python</span><span>Flask</span><span>OpenCV</span><span>Tesseract</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Cross-Platform & Enterprise Systems</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_05 · MOBILE</span>
+    <h3>ENSAVerse Mobile Ecosystem</h3>
+    <p class="desc">Campus-wide engagement platform bridging student organizations, administration, and students, with a subscription engine for mandatory admin feeds plus opt-in club channels, backed by a decoupled REST API.</p>
+    <div class="stack-row"><span>.NET MAUI (C#)</span><span>ASP.NET Core</span><span>PostgreSQL</span><span>SignalR / FCM</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_06 · BI / DATA</span>
+    <h3>SNCF BI Reports</h3>
+    <p class="desc">Enterprise data warehouse on a Star Schema model, with automated ETL pipelines for historical train delay and traffic logs, feeding a dashboard suite for punctuality and yield analytics.</p>
+    <div class="stack-row"><span>Talend Open Studio</span><span>Power BI (DAX)</span><span>MySQL</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Automation & Utilities</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_07 · AUTOMATION</span>
+    <h3>HealthyFlowTick Task Automator</h3>
+    <p class="desc">Background utility running scheduled routine logic, caching live environmental data from Open-Meteo REST endpoints.</p>
+    <div class="stack-row"><span>Native Java SDK</span><span>AlarmManager Broadcast Receivers</span></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="eyebrow reveal">04 · LIVE TELEMETRY</div>
+  <h2 class="section-title reveal reveal-delay-1">GitHub Activity</h2>
+  <div class="stats-wrap reveal reveal-delay-1">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=ensafusa&theme=tokyonight&bg_color=0A0F1C&hide_border=true" alt="Contribution graph" />
+    <div class="stats-row">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=ensafusa&theme=tokyonight&hide_border=true&background=0A0F1C" alt="Streak stats" />
+      <img src="https://github-readme-stats.vercel.app/api?username=ensafusa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0A0F1C" alt="GitHub stats" />
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="eyebrow reveal" style="justify-content:center;">05 · TRANSMIT</div>
+  <h2 class="reveal reveal-delay-1">Let's engineer something<br>impact-driven together.</h2>
+  <p class="reveal reveal-delay-1">Open to collaborations in CV, applied NLP, and FinTech automation.</p>
+  <div class="contact-links reveal reveal-delay-2">
+    <a class="btn" href="mailto:elidrissielazamidoha@gmail.com">EMAIL ME</a>
+    <a class="btn alt" href="https://www.linkedin.com/in/doha-el-idrissi-el-h-el-a-/" target="_blank">LINKEDIN</a>
+    <a class="btn alt" href="https://github.com/ensafusa" target="_blank">GITHUB</a>
+  </div>
+</section>
+
+<footer>© <span id="year"></span> DOHA EL IDRISSI — BUILT WITH INTENT, NOT A TEMPLATE</footer>
+
+<script>
+  // Hero lock-on effect
+  window.addEventListener('load', ()=>{
+    setTimeout(()=>document.getElementById('heroFrame').classList.add('locked'), 250);
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const projectEls = document.querySelectorAll('[data-project]');
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('in');
+        obs.unobserve(e.target);
+      }
+    });
+  }, {threshold:0.15});
+  revealEls.forEach(el=>obs.observe(el));
+  projectEls.forEach(el=>obs.observe(el));
+
+  // Flip cards - tap support for touch devices
+  document.querySelectorAll('.flip-card').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      card.classList.toggle('flipped');
+    });
+  });
+
+  // Skills data -> render flashcards
+  const skills = [
+    {name:"Python", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg", note:"RAG engines, CV pipelines, automation", conf:"PRIMARY"},
+    {name:"C#", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg", note:".NET MAUI mobile & ASP.NET APIs", conf:"CORE"},
+    {name:"Java", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg", note:"Native SDK automation utilities", conf:"CORE"},
+    {name:"JavaScript", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", note:"Full-stack translation portals", conf:"CORE"},
+    {name:"OpenCV", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg", note:"Adaptive thresholding, OCR prep", conf:"CV STACK"},
+    {name:"Scikit-Learn", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg", note:"Classical ML & vectorization", conf:"CV STACK"},
+    {name:"Streamlit", icon:"https://cdn.simpleicons.org/streamlit/FF4B4B", note:"Rapid AI product interfaces", conf:"DEPLOY"},
+    {name:"HuggingFace", icon:"https://cdn.simpleicons.org/huggingface/FFD21E", note:"Model hub & LLM tooling", conf:"LLM STACK"},
+    {name:"PostgreSQL", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg", note:"ENSAVerse backend datastore", conf:"DATA"},
+    {name:"MySQL", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg", note:"SNCF BI warehouse", conf:"DATA"},
+    {name:"Git", icon:"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg", note:"Version control, always", conf:"TOOLING"},
+    {name:"Postman", icon:"https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", note:"API testing & docs", conf:"TOOLING"},
+  ];
+
+  const grid = document.getElementById('cardGrid');
+  skills.forEach(s=>{
+    const card = document.createElement('div');
+    card.className = 'flip-card';
+    card.innerHTML = `
+      <div class="flip-inner">
+        <div class="flip-face flip-front">
+          <img src="${s.icon}" alt="${s.name}" />
+          <div class="name">${s.name}</div>
+        </div>
+        <div class="flip-face flip-back">
+          <div class="conf">${s.conf}</div>
+          <div class="note">${s.note}</div>
+        </div>
+      </div>`;
+    grid.appendChild(card);
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
