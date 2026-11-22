@@ -425,6 +425,7 @@
       <div><span class="k">based_in</span>: <span class="v">Morocco 🇲🇦</span></div>
       <div><span class="k">mission</span>: <span class="v">Turning complex data into intuitive, production-ready experiences</span></div>
       <div><span class="k">currently_building</span>: <span class="v">Document validator for FinTech / InsurTech</span></div>
+      <div><span class="k">recently</span>: <span class="v">More than a Hack 2027 (Talent Arena, Barcelona) · Hack-Nation</span></div>
       <div><span class="k">fun_fact</span>: <span class="v">Built a RAG engine from scratch instead of reaching for a vector DB</span></div>
     </div>
     <div class="scan-box reveal reveal-delay-2">
@@ -474,6 +475,24 @@
     <div class="stack-row"><span>Spring Boot</span><span>Vanilla JS (ES6+)</span><span>NMT Engines</span></div>
   </div>
 
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_08 · SOVEREIGN RAG · INTERNSHIP</span>
+    <h3>Sovereign AI Assistant — ANAM / AMO / CNSS Referentials</h3>
+    <div class="domain">Healthcare · On-Premise AI · Regulatory Document Search</div>
+    <p class="desc">100% on-premise semantic search engine and assistant for the administrative and billing agents of CHU Hassan II Fès (final-year internship). Agents query 1998–2017 tariff grids, assimilation decrees and reimbursement manuals in French, Arabic or Darija, with no data leaving the hospital network (CNDP / Law 09-08). Includes a dual-method PDF extraction pipeline (PyMuPDF + pdfplumber with OCR fallback and a reconciliation engine) and a hybrid search router that resolves key-letters, tariff tree positions and reimbursement calculations.</p>
+    <div class="stack-row"><span>Python</span><span>FAISS</span><span>Sentence-Transformers</span><span>Ollama (Llama 3)</span><span>FastAPI</span><span>Blazor / .NET</span><span>SQL Server</span><span>Tesseract OCR</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_09 · AGENTIC · HACK-NATION</span>
+    <h3>The Negotiator — AI Moving-Quote Negotiation Engine</h3>
+    <div class="domain">Voice Agents · Telephony · Applied LLMs</div>
+    <p class="desc">Tell it about your move by voice or a form plus a photo/PDF of an existing quote, and it finds real local movers, phones them, negotiates on your behalf and returns a ranked report with a recommended deal. Real-time audio pipeline (Whisper → GPT-4o → ElevenLabs TTS) over Twilio, itemized quote extraction from transcripts, and red-flag ranking that flags quotes below 30% of the median as suspicious. 86+ backend tests.</p>
+    <div class="stack-row"><span>FastAPI</span><span>ElevenLabs Agents</span><span>Twilio</span><span>OpenAI (GPT-4o, Whisper, Vision)</span><span>Tavily</span><span>React + TanStack Start</span><span>Tailwind</span><span>SQLite</span></div>
+  </div>
+
   <div class="cat-heading reveal">Computer Vision Pipelines</div>
 
   <div class="project reveal" data-project>
@@ -508,6 +527,35 @@
     <h3>SNCF BI Reports</h3>
     <p class="desc">Enterprise data warehouse on a Star Schema model, with automated ETL pipelines for historical train delay and traffic logs, feeding a dashboard suite for punctuality and yield analytics.</p>
     <div class="stack-row"><span>Talend Open Studio</span><span>Power BI (DAX)</span><span>MySQL</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_12 · DEVSECOPS · TEAM PROJECT</span>
+    <h3>SupportOps — Ticketing with a Full DevSecOps Chain</h3>
+    <div class="domain">Full-Stack · DevOps · Team of 3</div>
+    <p class="desc">Team-built support ticket management system with a complete delivery chain: Docker Compose, Helm on k3s, GitHub Actions CI (Pytest, Ruff, Gitleaks, Trivy), GitOps with Argo CD and progressive delivery with Argo Rollouts, Terraform, and Prometheus/Grafana observability that turns alerts into deduplicated incidents. I own the ticket module: lifecycle, comments, event history, filters and the React interface. Shared work covers JWT auth and roles. 48 automated tests passing.</p>
+    <div class="stack-row"><span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Celery / Redis</span><span>Docker</span><span>Helm / k3s</span><span>GitHub Actions</span><span>Terraform</span><span>Argo CD</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Data, Forecasting & Sports Analytics</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_10 · HACKATHON · MORE THAN A HACK 2027</span>
+    <h3>Ball Possession Detection — Metrica Sports × FC Barcelona</h3>
+    <div class="domain">Sports Analytics · Hackathon · Phase 1</div>
+    <p class="desc">Participated in the Talent Arena (Barcelona) football data challenge organised by Metrica Sports, FC Barcelona and Mobile World Capital Barcelona. Task: label every one of 199,319 frames of a full LaLiga match with who has the ball (home / away / dead) from uncorrected automatic tracking, where the ball is invisible on 41% of frames. Ranked on spellF1, which rewards recovering whole possessions rather than per-frame accuracy.</p>
+    <div class="stack-row"><span>Python</span><span>Tracking Data</span><span>Time-Series Smoothing</span><span>spellF1 / macroF1</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_11 · FORECASTING</span>
+    <h3>Delhi Power Load Forecasting</h3>
+    <div class="domain">Energy · Time-Series Forecasting · Data Pipeline</div>
+    <p class="desc">Automated pipeline that pulls electricity load data from Delhi's SLDC source, merges it with historical weather (Open-Meteo) and Delhi public holidays, engineers calendar features, forecasts near-term demand against a baseline, and visualizes predicted vs. actual with error metrics on a live dashboard. Scheduled ingestion is orchestrated with n8n.</p>
+    <div class="stack-row"><span>Python</span><span>SQLite</span><span>Streamlit</span><span>n8n</span><span>Open-Meteo API</span><span>Pandas</span></div>
   </div>
 
   <div class="cat-heading reveal">Automation & Utilities</div>
@@ -587,6 +635,11 @@
     {name:"HuggingFace", icon:"https://cdn.simpleicons.org/huggingface/FFD21E", note:"Model hub & LLM tooling", conf:"LLM STACK"},
     {name:"PostgreSQL", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg", note:"ENSAVerse backend datastore", conf:"DATA"},
     {name:"MySQL", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg", note:"SNCF BI warehouse", conf:"DATA"},
+    {name:"FastAPI", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg", note:"Negotiator & Sovereign AI backends", conf:"BACKEND"},
+    {name:"React", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg", note:"SupportOps & Negotiator frontends", conf:"FRONTEND"},
+    {name:"Docker", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg", note:"Compose stacks, CI image builds", conf:"DEVOPS"},
+    {name:"Kubernetes", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg", note:"Helm charts, k3s, Argo CD GitOps", conf:"DEVOPS"},
+    {name:"SQL Server", icon:"https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg", note:"CHU tariff reference database", conf:"DATA"},
     {name:"Git", icon:"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg", note:"Version control, always", conf:"TOOLING"},
     {name:"Postman", icon:"https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg", note:"API testing & docs", conf:"TOOLING"},
   ];
