@@ -448,20 +448,69 @@
   <div class="eyebrow reveal">03 · TRACKED PROJECTS</div>
   <h2 class="section-title reveal reveal-delay-1">Featured Work</h2>
 
+  <div class="cat-heading reveal">Featured · Recent & Most Impactful</div>
+
   <div class="project crown reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_00 · CROWN JEWEL</span>
+    <span class="project-label">OBJ_00 · FLAGSHIP · 2026 · INTERNSHIP</span>
+    <h3>Sovereign AI Assistant — ANAM / AMO / CNSS Referentials</h3>
+    <div class="domain">Healthcare · On-Premise AI · Regulatory Document Search</div>
+    <p class="desc">100% on-premise semantic search engine and assistant for the administrative and billing agents of CHU Hassan II Fès (final-year internship). Agents query 1998–2017 tariff grids, assimilation decrees and reimbursement manuals in French, Arabic or Darija, with no data leaving the hospital network (CNDP / Law 09-08). Includes a dual-method PDF extraction pipeline (PyMuPDF + pdfplumber with OCR fallback and a reconciliation engine) and a hybrid search router that resolves key-letters, tariff tree positions and reimbursement calculations.</p>
+    <div class="stack-row"><span>Python</span><span>FAISS</span><span>Sentence-Transformers</span><span>Ollama (Llama 3)</span><span>FastAPI</span><span>Blazor / .NET</span><span>SQL Server</span><span>Tesseract OCR</span></div>
+  </div>
+
+  <div class="project crown reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_01 · IN PROGRESS · CURRENTLY BUILDING</span>
     <h3>Life Savings & Succession Document Validator</h3>
     <div class="domain">FinTech · InsurTech · Intelligent Document Automation</div>
     <p class="desc">An automated ingestion pipeline for multi-document succession files. Extracts text via localized OCR layers, runs deterministic validation across heterogeneous documents, and flags fraud anomalies for human audit review.</p>
     <div class="stack-row"><span>Python</span><span>Advanced Extraction Systems</span><span>Risk Modeling</span></div>
   </div>
 
-  <div class="cat-heading reveal">AI, NLP & Language Engineering</div>
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_02 · 2026 · HACK-NATION</span>
+    <h3>The Negotiator — AI Moving-Quote Negotiation Engine</h3>
+    <div class="domain">Voice Agents · Telephony · Applied LLMs</div>
+    <p class="desc">Tell it about your move by voice or a form plus a photo/PDF of an existing quote, and it finds real local movers, phones them, negotiates on your behalf and returns a ranked report with a recommended deal. Real-time audio pipeline (Whisper → GPT-4o → ElevenLabs TTS) over Twilio, itemized quote extraction from transcripts, and red-flag ranking that flags quotes below 30% of the median as suspicious. 86+ backend tests.</p>
+    <div class="stack-row"><span>FastAPI</span><span>ElevenLabs Agents</span><span>Twilio</span><span>OpenAI (GPT-4o, Whisper, Vision)</span><span>Tavily</span><span>React + TanStack Start</span><span>Tailwind</span><span>SQLite</span></div>
+  </div>
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_01 · RAG ENGINE</span>
+    <span class="project-label">OBJ_03 · 2026 · TEAM PROJECT</span>
+    <h3>SupportOps — Ticketing with a Full DevSecOps Chain</h3>
+    <div class="domain">Full-Stack · DevOps · Team of 3</div>
+    <p class="desc">Team-built support ticket management system with a complete delivery chain: Docker Compose, Helm on k3s, GitHub Actions CI (Pytest, Ruff, Gitleaks, Trivy), GitOps with Argo CD and progressive delivery with Argo Rollouts, Terraform, and Prometheus/Grafana observability that turns alerts into deduplicated incidents. I own the ticket module: lifecycle, comments, event history, filters and the React interface. Shared work covers JWT auth and roles. 48 automated tests passing.</p>
+    <div class="stack-row"><span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Celery / Redis</span><span>Docker</span><span>Helm / k3s</span><span>GitHub Actions</span><span>Terraform</span><span>Argo CD</span></div>
+  </div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_04 · 2026 · MORE THAN A HACK</span>
+    <h3>Ball Possession Detection — Metrica Sports × FC Barcelona</h3>
+    <div class="domain">Sports Analytics · Hackathon · Phase 1</div>
+    <p class="desc">Participated in the Talent Arena (Barcelona) football data challenge organised by Metrica Sports, FC Barcelona and Mobile World Capital Barcelona. Task: label every one of 199,319 frames of a full LaLiga match with who has the ball (home / away / dead) from uncorrected automatic tracking, where the ball is invisible on 41% of frames. Ranked on spellF1, which rewards recovering whole possessions rather than per-frame accuracy.</p>
+    <div class="stack-row"><span>Python</span><span>Tracking Data</span><span>Time-Series Smoothing</span><span>spellF1 / macroF1</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Recent</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_05 · 2026 · FORECASTING</span>
+    <h3>Delhi Power Load Forecasting</h3>
+    <div class="domain">Energy · Time-Series Forecasting · Data Pipeline</div>
+    <p class="desc">Automated pipeline that pulls electricity load data from Delhi's SLDC source, merges it with historical weather (Open-Meteo) and Delhi public holidays, engineers calendar features, forecasts near-term demand against a baseline, and visualizes predicted vs. actual with error metrics on a live dashboard. Scheduled ingestion is orchestrated with n8n.</p>
+    <div class="stack-row"><span>Python</span><span>SQLite</span><span>Streamlit</span><span>n8n</span><span>Open-Meteo API</span><span>Pandas</span></div>
+  </div>
+
+  <div class="cat-heading reveal">Earlier Work · AI, NLP & Computer Vision</div>
+
+  <div class="project reveal" data-project>
+    <span class="pcorner tl"></span><span class="pcorner br"></span>
+    <span class="project-label">OBJ_06 · RAG ENGINE</span>
     <h3>Bangtan FAQ AI — Beyond the Story</h3>
     <p class="desc">Ground-up mathematical RAG engine mapping a 400+ page memoir, built with custom TF-IDF & cosine similarity — no off-the-shelf abstractions — connected to Llama 3.3 (70B) via Groq LPUs for sub-second generation.</p>
     <div class="stack-row"><span>Python</span><span>NLTK Vectorization</span><span>Groq API</span><span>Streamlit</span></div>
@@ -469,7 +518,7 @@
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_02 · TRANSLATION</span>
+    <span class="project-label">OBJ_07 · TRANSLATION</span>
     <h3>DoTranslatorAI Portal</h3>
     <p class="desc">Full-stack translation hub with neural machine translation routing, predictive language-collision handling, and fluid RTL layout support, secured behind a decoupled Spring Boot API.</p>
     <div class="stack-row"><span>Spring Boot</span><span>Vanilla JS (ES6+)</span><span>NMT Engines</span></div>
@@ -477,27 +526,7 @@
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_08 · SOVEREIGN RAG · INTERNSHIP</span>
-    <h3>Sovereign AI Assistant — ANAM / AMO / CNSS Referentials</h3>
-    <div class="domain">Healthcare · On-Premise AI · Regulatory Document Search</div>
-    <p class="desc">100% on-premise semantic search engine and assistant for the administrative and billing agents of CHU Hassan II Fès (final-year internship). Agents query 1998–2017 tariff grids, assimilation decrees and reimbursement manuals in French, Arabic or Darija, with no data leaving the hospital network (CNDP / Law 09-08). Includes a dual-method PDF extraction pipeline (PyMuPDF + pdfplumber with OCR fallback and a reconciliation engine) and a hybrid search router that resolves key-letters, tariff tree positions and reimbursement calculations.</p>
-    <div class="stack-row"><span>Python</span><span>FAISS</span><span>Sentence-Transformers</span><span>Ollama (Llama 3)</span><span>FastAPI</span><span>Blazor / .NET</span><span>SQL Server</span><span>Tesseract OCR</span></div>
-  </div>
-
-  <div class="project reveal" data-project>
-    <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_09 · AGENTIC · HACK-NATION</span>
-    <h3>The Negotiator — AI Moving-Quote Negotiation Engine</h3>
-    <div class="domain">Voice Agents · Telephony · Applied LLMs</div>
-    <p class="desc">Tell it about your move by voice or a form plus a photo/PDF of an existing quote, and it finds real local movers, phones them, negotiates on your behalf and returns a ranked report with a recommended deal. Real-time audio pipeline (Whisper → GPT-4o → ElevenLabs TTS) over Twilio, itemized quote extraction from transcripts, and red-flag ranking that flags quotes below 30% of the median as suspicious. 86+ backend tests.</p>
-    <div class="stack-row"><span>FastAPI</span><span>ElevenLabs Agents</span><span>Twilio</span><span>OpenAI (GPT-4o, Whisper, Vision)</span><span>Tavily</span><span>React + TanStack Start</span><span>Tailwind</span><span>SQLite</span></div>
-  </div>
-
-  <div class="cat-heading reveal">Computer Vision Pipelines</div>
-
-  <div class="project reveal" data-project>
-    <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_03 · TRACKING</span>
+    <span class="project-label">OBJ_08 · TRACKING</span>
     <h3>Real-Time Object Tracking System</h3>
     <p class="desc">High-throughput transformer-based detection using RT-DETR, integrated with BoT-SORT for stable identity tracking through occlusions — with no traditional NMS latency.</p>
     <div class="stack-row"><span>Python</span><span>Ultralytics</span><span>CV Architectures</span></div>
@@ -505,17 +534,17 @@
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_04 · OCR</span>
+    <span class="project-label">OBJ_09 · OCR</span>
     <h3>WONWOO READ IT — Multilingual OCR Scanner</h3>
     <p class="desc">Assistive physical-to-digital scanning platform using OpenCV adaptive thresholding to remove noise, supporting English, French, Korean, and Japanese script recognition.</p>
     <div class="stack-row"><span>Python</span><span>Flask</span><span>OpenCV</span><span>Tesseract</span></div>
   </div>
 
-  <div class="cat-heading reveal">Cross-Platform & Enterprise Systems</div>
+  <div class="cat-heading reveal">Earlier Work · Enterprise, Data & Utilities</div>
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_05 · MOBILE</span>
+    <span class="project-label">OBJ_10 · MOBILE</span>
     <h3>ENSAVerse Mobile Ecosystem</h3>
     <p class="desc">Campus-wide engagement platform bridging student organizations, administration, and students, with a subscription engine for mandatory admin feeds plus opt-in club channels, backed by a decoupled REST API.</p>
     <div class="stack-row"><span>.NET MAUI (C#)</span><span>ASP.NET Core</span><span>PostgreSQL</span><span>SignalR / FCM</span></div>
@@ -523,7 +552,7 @@
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_06 · BI / DATA</span>
+    <span class="project-label">OBJ_11 · BI / DATA</span>
     <h3>SNCF BI Reports</h3>
     <p class="desc">Enterprise data warehouse on a Star Schema model, with automated ETL pipelines for historical train delay and traffic logs, feeding a dashboard suite for punctuality and yield analytics.</p>
     <div class="stack-row"><span>Talend Open Studio</span><span>Power BI (DAX)</span><span>MySQL</span></div>
@@ -531,42 +560,12 @@
 
   <div class="project reveal" data-project>
     <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_12 · DEVSECOPS · TEAM PROJECT</span>
-    <h3>SupportOps — Ticketing with a Full DevSecOps Chain</h3>
-    <div class="domain">Full-Stack · DevOps · Team of 3</div>
-    <p class="desc">Team-built support ticket management system with a complete delivery chain: Docker Compose, Helm on k3s, GitHub Actions CI (Pytest, Ruff, Gitleaks, Trivy), GitOps with Argo CD and progressive delivery with Argo Rollouts, Terraform, and Prometheus/Grafana observability that turns alerts into deduplicated incidents. I own the ticket module: lifecycle, comments, event history, filters and the React interface. Shared work covers JWT auth and roles. 48 automated tests passing.</p>
-    <div class="stack-row"><span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Celery / Redis</span><span>Docker</span><span>Helm / k3s</span><span>GitHub Actions</span><span>Terraform</span><span>Argo CD</span></div>
-  </div>
-
-  <div class="cat-heading reveal">Data, Forecasting & Sports Analytics</div>
-
-  <div class="project reveal" data-project>
-    <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_10 · HACKATHON · MORE THAN A HACK 2027</span>
-    <h3>Ball Possession Detection — Metrica Sports × FC Barcelona</h3>
-    <div class="domain">Sports Analytics · Hackathon · Phase 1</div>
-    <p class="desc">Participated in the Talent Arena (Barcelona) football data challenge organised by Metrica Sports, FC Barcelona and Mobile World Capital Barcelona. Task: label every one of 199,319 frames of a full LaLiga match with who has the ball (home / away / dead) from uncorrected automatic tracking, where the ball is invisible on 41% of frames. Ranked on spellF1, which rewards recovering whole possessions rather than per-frame accuracy.</p>
-    <div class="stack-row"><span>Python</span><span>Tracking Data</span><span>Time-Series Smoothing</span><span>spellF1 / macroF1</span></div>
-  </div>
-
-  <div class="project reveal" data-project>
-    <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_11 · FORECASTING</span>
-    <h3>Delhi Power Load Forecasting</h3>
-    <div class="domain">Energy · Time-Series Forecasting · Data Pipeline</div>
-    <p class="desc">Automated pipeline that pulls electricity load data from Delhi's SLDC source, merges it with historical weather (Open-Meteo) and Delhi public holidays, engineers calendar features, forecasts near-term demand against a baseline, and visualizes predicted vs. actual with error metrics on a live dashboard. Scheduled ingestion is orchestrated with n8n.</p>
-    <div class="stack-row"><span>Python</span><span>SQLite</span><span>Streamlit</span><span>n8n</span><span>Open-Meteo API</span><span>Pandas</span></div>
-  </div>
-
-  <div class="cat-heading reveal">Automation & Utilities</div>
-
-  <div class="project reveal" data-project>
-    <span class="pcorner tl"></span><span class="pcorner br"></span>
-    <span class="project-label">OBJ_07 · AUTOMATION</span>
+    <span class="project-label">OBJ_12 · AUTOMATION</span>
     <h3>HealthyFlowTick Task Automator</h3>
     <p class="desc">Background utility running scheduled routine logic, caching live environmental data from Open-Meteo REST endpoints.</p>
     <div class="stack-row"><span>Native Java SDK</span><span>AlarmManager Broadcast Receivers</span></div>
   </div>
+
 </section>
 
 <!-- STATS -->
